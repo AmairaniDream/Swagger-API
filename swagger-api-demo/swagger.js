@@ -29,7 +29,7 @@ const swaggerDefinition = {
 
     }
   },
-  security:[{  bearerAuth: [] }]
+  security:[{ bearerAuth:[] }]
 };
 
 const options = {
