@@ -365,6 +365,8 @@ app.get('/items/:id', authenticateToken, (req, res) => {
  * /items/{id}:
  *   put:
  *     summary: Update an item by ID
+ *     security: 
+ *        - bearerAuth: []
  *     parameters:
  *       - in: path
  *         name: id
@@ -385,6 +387,8 @@ app.put('/items/:id', authenticateToken, (req, res) => {
  * /items/{id}:
  *   delete:
  *     summary: Delete an item by ID
+ *     security: 
+ *        - bearerAuth: []
  *     parameters:
  *       - in: path
  *         name: id
